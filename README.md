@@ -6,6 +6,9 @@ ArtisanCraft is a responsive e-commerce business landing page designed for a han
 
 The project focuses on clean design, responsiveness, and basic interactive features that help create a professional online presence for a small handcrafted products business.
 
+
+Link for live preview:-  
+https://6a2698bcff0068138d0bfec3--sprightly-crepe-7524ad.netlify.app/
 ---
 
 ## Features
