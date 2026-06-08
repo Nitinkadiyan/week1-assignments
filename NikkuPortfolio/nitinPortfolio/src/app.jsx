@@ -6,7 +6,7 @@ import About from './MainContent/about.jsx';
 import Resume from './MainContent/resume.jsx';
 import Home from './MainContent/home.jsx';
 // import Testimonials from './MainContent/testimonials.jsx';
-
+import Contact from './MainContent/contact.jsx';
 
 
 
@@ -21,6 +21,7 @@ export default function App() {
     <div className="portfolio-content">
       <About/>
       <Resume/>
+      <Contact/>
     </div>
    </div>
    </div>
