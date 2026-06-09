@@ -1,0 +1,103 @@
+.portfolio-container{
+    width: 70%;
+    height: 100vh;
+}
+.projects-line{
+    margin-left: 12vh;
+    font-size: 24px;
+    background-color: #f5b82e;
+    width:max-content;
+    padding: 5px;
+    border-radius: 20px;
+}
+.portfolio-container-2{
+    width: 100%;
+    height: 100vh;
+    margin: 20px;
+
+}
+.row-portfolio{
+    margin: 16px;
+    width: 100%;
+    height: 100vh;
+}
+.card-container{
+    height:80vh;
+    width: 45%;
+    border-radius: 30px;
+    border: 3px solid rgb(173, 137, 28);
+    justify-content: end;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 3vh;
+    
+}
+.projects-image{
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+    position: absolute;
+    top: 10px;
+}
+.card-title{
+    position: absolute;
+    top: 53%;
+}
+.card-description{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.7;
+    position: absolute;
+    top: 60%;
+
+}
+.tech-stack{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    margin-top: 10px;
+    position: absolute;
+    justify-content: center;
+    
+
+}
+.tech-badge{
+    border: 1px solid #bd5800;
+ 
+    color: #ca6200;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+.tech-badge:hover{
+    transform: translateY(-3px);
+    background-color: #f5b82e;
+    color: black;
+}
+.card-anchor{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    transition: 0.3s;
+}
+.card-anchor:hover{
+    color: #0f84d2;
+    transform: translateY(-3px);
+
+
+}
