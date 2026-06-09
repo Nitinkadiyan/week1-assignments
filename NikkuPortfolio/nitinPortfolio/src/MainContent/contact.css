@@ -76,3 +76,13 @@ background-color: #f5b82e;
    color: black;
    
 }
+.contact-page-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+.contact-page-icons span{
+    padding: 20px;
+    font-size: 2rem;
+}

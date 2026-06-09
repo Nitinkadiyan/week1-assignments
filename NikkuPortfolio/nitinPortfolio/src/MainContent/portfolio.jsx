@@ -9,25 +9,26 @@ export default function Portfolio(){
                 imageUrl :artisan,
                 title:"ArtisanCraft",
                 description:"Responsive handcrafted products e-commerce page featuring product showcases, and interactive user experience.",
-                technologies:["HTML5","CSS3","JS"],
-                linkUrl:""
+                technologies:["HTML5","CSS3","JavaScript"],
+                linkUrl:"https://6a2698bcff0068138d0bfec3--sprightly-crepe-7524ad.netlify.app/",
             },
               {
                 imageUrl :wanderlust,
                 title:"WanderLust",
                 description:"Modern travel and accommodation booking platform with destination discovery and property listing features",
-                technologies:["HTML5","CSS3","JS"]
+                technologies:["HTML5","BootStrap","JavaScript","Node.js","Express.js","MongoDB","Passport.js","Cloudinary","Mapbox Api"],
+                linkUrl:"https://wanderlust-project-3urn.onrender.com",
             },
               {
                 imageUrl :stocks,
                 title:"EquityFlow",
                 description:"Stock trading dashboard inspired by Zerodha, featuring portfolio tracking, watchlists, and market analytics.",
-                technologies:["HTML5","CSS3","JS"]
+                technologies:["React","BootStrap","JavaScript","Node.js","Express.js","MongoDB"],
+                linkUrl:"https://equityflow-stock-frontend.onrender.com",
             }
            
         ]
     return (
-       
         <>
         <div className="portfolio-container">
             <section id="portfolio"><div className="resume-word">PORTFOLIO</div></section>
@@ -51,7 +52,7 @@ export default function Portfolio(){
                             
                             </div>
                              </p>
-                             <a className="card-anchor "href='#'>Link Preview&gt;&gt;</a>
+                             <a className="card-anchor " target="_blank"href={item.linkUrl}>Link Preview&gt;&gt;</a>
                            
                         </div>)
                        
