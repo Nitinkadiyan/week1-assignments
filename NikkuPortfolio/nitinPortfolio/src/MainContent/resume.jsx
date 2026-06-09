@@ -43,7 +43,7 @@ const experience = [
                   
                   
                   <div className="resume">
-                    <div className="resume-word">RESUME</div>
+                  <section id="resume">  <div className="resume-word">RESUME</div></section>
                     
                     <div className="education">
                         <div className="name">EDUCATION</div>
