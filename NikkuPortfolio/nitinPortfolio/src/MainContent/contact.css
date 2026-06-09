@@ -1,6 +1,6 @@
 .contact-container{
     background-color: #ececec;
-    height: 100vh;
+    height: 120vh;
     width: 70%;
     margin-top: 110vh;
     
@@ -81,4 +81,14 @@ font-size: 130px;
    background-color: #f5b82e;
    color: black;
    
+}
+.contact-page-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+.contact-page-icons span{
+    padding: 20px;
+    font-size: 2rem;
 }
