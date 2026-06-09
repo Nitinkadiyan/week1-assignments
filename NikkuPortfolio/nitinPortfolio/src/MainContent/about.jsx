@@ -9,7 +9,7 @@ export default function About(){
                
                 <div className="about">
                     <div className="about-upper">
-                        <h1 className='about-main'>ABOUT ME</h1>
+                        <section id ="about"><h1 className='about-main'>ABOUT ME</h1></section>
                     <h3><span className='about-designation'>I'm</span> <span className='about-name'>Nitin Kumar</span>,<span className='about-designation'>Full Stack Developer / DSA Enthusiast</span></h3>
                     <p className='about-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis molestias pariatur natus iure ratione. Dolor nulla, qui similique, repellat suscipit saepe quia impedit voluptates aliquid fuga libero nihil recusandae ut.  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia nisi vitae vero earum voluptatem impedit, tempore esse aut, modi iure eum, maiores nihil! Architecto rerum necessitatibus saepe cum expedita inventore.</p>
                     </div>

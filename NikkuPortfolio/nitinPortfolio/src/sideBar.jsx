@@ -10,13 +10,13 @@ export default function SideBar() {
       </div>
     <div className="navBars">
      <a href='#'> <i class="fa-solid fa-arrow-up"></i></a>
-      <a href='#home'>HOME</a>
+      <a href='#'>HOME</a>
       <a href='#about'>ABOUT</a>
       <a href='#resume'>RESUME</a>
       <a href='#portfolio'>PORTFOLIO</a>
       <a href='#testimonials'>TESTIMONIALS</a>
       <a href='#contact'>CONTACT</a>
-      <a href='#'> <i class="fa-solid fa-arrow-down"></i></a>
+      <a href='#contact'> <i class="fa-solid fa-arrow-down"></i></a>
     </div>
   </div>
   );

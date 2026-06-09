@@ -10,7 +10,7 @@ export default function Home(){
             <div className="col-1 leftBar">
               <div className="bar"></div>
             </div>
-            <div className="col-4 hero-home">
+            <div className="col-6 hero-home">
                 <h1>HI THERE!</h1>
                 <div className="home-underline"></div>
                 <br></br>
@@ -20,12 +20,12 @@ export default function Home(){
                 <h6 className='home-handle'>READY TO HANDLE YOUR NEW PROJECT</h6>
                 <br></br>
                 <br></br>
-                <p className='home-para'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione sed quo unde vero, veniam repellat velit cum. Accusantium qui corporis iusto commodi labore, nemo atque harum perspiciatis dicta quidem natus!</p>
+                <p className='home-para mb-3'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione sed quo unde vero, veniam repellat velit cum. Accusantium qui corporis iusto commodi labore, nemo atque harum perspiciatis dicta quidem natus!</p>
 
-                <button className='btn btn-dark mt-5 '>MORE ABOUT ME</button>
+                <button className='btn btn-dark mt-5 home-button'>MORE ABOUT ME</button>
             </div>
-            <div className="col-6">
-              <div className="image">
+            <div className="col-4">
+              <div className="home-image">
                  <img src={character} className='character'/>
               </div>
             </div>
