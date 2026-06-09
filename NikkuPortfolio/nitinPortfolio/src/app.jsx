@@ -21,11 +21,8 @@ export default function App() {
     <div className="portfolio-content">
       <About/>
       <Resume/>
-<<<<<<< Updated upstream
-=======
       <Portfolio/>
       <Contact/>
->>>>>>> Stashed changes
     </div>
    </div>
    </div>
