@@ -6,7 +6,6 @@ import Contact from './MainContent/contact.jsx';
 import Resume from './MainContent/resume.jsx';
 import Home from './MainContent/home.jsx';
 // import Testimonials from './MainContent/testimonials.jsx';
-import Contact from './MainContent/contact.jsx';
 
 
 
