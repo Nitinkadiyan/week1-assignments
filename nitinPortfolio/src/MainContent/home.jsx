@@ -1,5 +1,5 @@
 import './home.css';
-import character from '../assets/photo-1780570589435-059359e813cc.avif';
+import character from '../assets/nitinInCoat.jpeg';
 import NavBar from './navbar.jsx';
 export default function Home(){
   return (
